@@ -1,4 +1,4 @@
-$ Set-Content -Path "C:\Users\parth\Spendly\README.md" -Value '# Spendly 💸
+ Spendly 💸
 
 <p align="center">
   <img src="https://img.shields.io/github/license/leoxmarcos/Spendly?style=flat-square&color=2ecc71" alt="License" />
@@ -358,50 +358,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Powered%20by-Claude%20Code-7c3aed?style=for-the-badge&logo=anthropic&logoColor=white" alt="Powered by Claude Code" />
-</p>' -Encoding UTF8
-
-At line:178 char:2
-+ - ?? **Understands your entire codebase** - reads, searches, and reas ...
-+  ~
-Missing expression after unary operator '-'.
-At line:178 char:3
-+ - ?? **Understands your entire codebase** - reads, searches, and reas ...
-+   ~~
-Unexpected token '??' in expression or statement.
-At line:179 char:2
-+ - ? **Writes, edits, and refactors code** - from boilerplate to compl ...
-+  ~
-Missing expression after unary operator '-'.
-At line:179 char:3
-+ - ? **Writes, edits, and refactors code** - from boilerplate to compl ...
-+   ~
-Unexpected token '?' in expression or statement.
-At line:180 char:2
-+ - ?? **Runs commands & tests** - executes bash, runs linters, validat ...
-+  ~
-Missing expression after unary operator '-'.
-At line:180 char:3
-+ - ?? **Runs commands & tests** - executes bash, runs linters, validat ...
-+   ~~
-Unexpected token '??' in expression or statement.
-At line:180 char:22
-+ - ?? **Runs commands & tests** - executes bash, runs linters, validat ...
-+                      ~
-The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double 
-quotation marks ("&") to pass it as part of a string.
-At line:181 char:2
-+ - ?? **Explains code** - answers questions about any part of your pro ...
-+  ~
-Missing expression after unary operator '-'.
-At line:181 char:3
-+ - ?? **Explains code** - answers questions about any part of your pro ...
-+   ~~
-Unexpected token '??' in expression or statement.
-At line:182 char:2
-+ - ?? **Collaborates naturally** - chat-driven workflow, no context sw ...
-+  ~
-Missing expression after unary operator '-'.
-Not all parse errors were reported.  Correct the reported errors and try again.
-    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
-    + FullyQualifiedErrorId : MissingExpressionAfterOperator
- 
+</p>
