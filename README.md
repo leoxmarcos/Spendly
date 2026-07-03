@@ -110,9 +110,61 @@ python -m venv venv
 venv\Scripts\activate
 # macOS/Linux:
 source venv/bin/activate
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Run the development server
 python app.py
+
+Project Structure
+Spendly/
+├── app.py                 # Flask application factory and routes
+├── requirements.txt       # Python dependencies
+├── package.json           # Frontend metadata (npm)
+├── .gitignore
+├── README.md
+│
+├── database/              # SQLite database (auto-created)
+│   └── spendly.db
+│
+├── static/                # Static assets
+│   ├── css/
+│   │   └── style.css      # Main stylesheet
+│   ├── js/
+│   │   └── app.js         # Client-side interactions
+│   └── logo.svg           # App logo
+│
+└── templates/             # Jinja2 templates
+    ├── base.html          # Base layout
+    ├── landing.html       # Marketing landing page
+    ├── login.html         # Sign in page
+    ├── register.html      # Sign up page
+    ├── dashboard.html     # Main dashboard (TODO)
+    ├── add_expense.html   # Add expense form (TODO)
+    └── profile.html       # User profile (TODO)
+🤖 Built with Claude Code
+Powered by Claude Code
+This project was entirely built using Claude Code — Anthropic's AI-powered coding agent that lives in your terminal. Every file, every route, every style was generated through natural language conversations with Claude.
+
+🎯 What is Claude Code?
+Claude Code is an agentic AI coding tool that:
+
+🧠 Understands your entire codebase — reads, searches, and reasons across files
+⚡ Writes, edits, and refactors code — from boilerplate to complex features
+🔧 Runs commands and tests — executes bash, runs linters, validates changes
+📚 Explains code — answers questions about any part of your project
+🤝 Collaborates naturally — chat-driven workflow, no context switching
+How this project was built:
+
+📋 Plan — Designed Flask app structure and features conversationally
+💻 Generate — Created all Python routes, templates, CSS and JS via prompts
+🔧 Iterate — Refined UI, fixed bugs, added responsive design in real-time
+📝 Document — This very README was written by Claude Code
+💡 Example Prompts Used
+Click to see example prompts
+🚀 Get Started with Claude Code
+# 1. Install Claude Code
+curl -fsSL https://claude.ai/install.sh | sh
+
+# 2. Navigate to your project
+cd your-project
+
+# 3. Start coding with AI
+claude
+📖 Learn more: claude.ai/code • Documentation • GitHub Repo
